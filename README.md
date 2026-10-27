@@ -34,7 +34,7 @@ Perbedaan fungsi biasa dan method:
 - Method dibuat di dalam class dan biasanya bekerja dengan data objek melalui self.
 
 
-# Ringkasan 
+### Ringkasan 
 Istilah	    Fungsi
 class	    Membuat cetakan objek
 object	    Hasil dari class
@@ -43,3 +43,10 @@ self	    Merujuk pada objek itu sendiri
 attribute	Data yang dimiliki objek
 method	    Fungsi yang berada di dalam class
 pass	    Placeholder ketika belum ada kode
+
+# Apa itu Inheritance?
+Inheritance adalah konsep ketika sebuah class dapat mewarisi atribut dan method dari class lain.
+
+Ada dua istilah yang perlu kamu ingat:
+- Parent class: class induk yang mewariskan atribut dan method.
+- Child class: class anak yang menerima warisan dari parent class.
