@@ -5,3 +5,41 @@ OOP (Object-Oriented Programming) adalah cara membuat program dengan mengelompok
 Dalam OOP, kita bisa membuat sebuah class sebagai cetakan dan object sebagai hasil dari cetakan tersebut.
 
 Satu class bisa digunakan untuk membuat banyak objek dengan data yang berbeda.
+
+Mari kita pahami bagian pentingnya.
+
+A. __init__()
+
+Ini adalah metode khusus yang otomatis dipanggil ketika objek baru dibuat. Biasanya digunakan untuk mengatur data awal objek.
+
+B. self
+
+self merujuk pada objek yang sedang digunakan.
+
+**Atribut**
+
+Atribut adalah data yang dimiliki objek.
+
+Dalam contoh di atas:
+- self.merek adalah atribut merek.
+- self.warna adalah atribut warna.
+
+**Membuat method di dalam class**
+Class bukan hanya untuk menyimpan data. Class juga bisa memiliki fungsi yang disebut method.
+
+Contohnya, mobil dapat berjalan dan berhenti.
+
+Perbedaan fungsi biasa dan method:
+- Fungsi biasa dibuat menggunakan def di luar class.
+- Method dibuat di dalam class dan biasanya bekerja dengan data objek melalui self.
+
+
+# Ringkasan 
+Istilah	    Fungsi
+class	    Membuat cetakan objek
+object	    Hasil dari class
+__init__()	Mengatur data awal objek
+self	    Merujuk pada objek itu sendiri
+attribute	Data yang dimiliki objek
+method	    Fungsi yang berada di dalam class
+pass	    Placeholder ketika belum ada kode
