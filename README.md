@@ -45,7 +45,7 @@ method	    Fungsi yang berada di dalam class
 pass	    Placeholder ketika belum ada kode
 
 # Apa itu Inheritance?
-Inheritance adalah konsep ketika sebuah class dapat mewarisi atribut dan method dari class lain.
+Inheritance memungkinkan sebuah class (child/subclass) mengambil atribut dan method dari class lain (parent/superclass), sehingga kamu tidak perlu menulis kode yang sama berulang kali.
 
 Ada dua istilah yang perlu kamu ingat:
 - Parent class: class induk yang mewariskan atribut dan method.
