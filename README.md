@@ -50,3 +50,16 @@ Inheritance memungkinkan sebuah class (child/subclass) mengambil atribut dan met
 Ada dua istilah yang perlu kamu ingat:
 - Parent class: class induk yang mewariskan atribut dan method.
 - Child class: class anak yang menerima warisan dari parent class.
+
+**Fungsi super()**
+
+Kalau child punya atribut tambahan, gunakan super() untuk memanggil __init__ milik parent.
+
+Ringkasan
+Konsep	                    Fungsi
+class Anak(Induk)	        Membuat pewarisan
+Overriding	                Menimpa method parent di child
+super()	                    Memanggil method/__init__ parent
+Multiple inheritance        Mewarisi dari >1 parent
+MRO	                        Urutan pencarian method
+isinstance() / issubclass()	Mengecek hubungan class
